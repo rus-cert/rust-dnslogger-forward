@@ -1,0 +1,43 @@
+.TH DNSLOGGER\-FORWARD 1
+.SH NAME
+dnslogger\-forward
+.SH SYNOPSIS
+.B dnslogger\-forward [FLAGS] [OPTIONS] <HOST> <PORT>
+.SH DESCRIPTION
+dnslogger\-forward forwards a subset of DNS traffic to a central monitoring station for analysis.
+.SH FLAGS
+.TP
+.BR \fB-A\fR
+forward authoritative answers only
+.TP
+.BR \fB-D\fR
+do not forward empty answers
+.TP
+.BR \fB-t\fR
+forward data over TCP (default is UDP)
+.TP
+.BR \fB-T\fR
+enable testing mode (reads from standard input)
+.TP
+.BR \fB-v\fR
+verbose output, include debugging messages
+.SH OPTIONS
+.TP
+.BR \fB-i\fR " " \fIINTERFACE\fR
+interface to capture packets on
+.TP
+.BR \fB-f\fR " " \fIEXPRESSION\fR
+filter expression (BPF syntax)
+.TP
+.BR \fB-L\fR " " \fISECS\fR
+write a checkpoint log entry every SECS seconds (not implemented yet)
+.TP
+.BR \fIHOST\fR
+address to forward DNS packets to
+.TP
+.BR \fIPORT\fR
+port to forward DNS packets to
+.SH AUTHOR
+.B dnslogger\-forward
+was written by Stefan Bühler <buehler@cert.uni\-stuttgart.de>.
+

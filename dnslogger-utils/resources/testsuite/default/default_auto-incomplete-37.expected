@@ -1,0 +1,2 @@
+dnslogger-forward: debug: Truncated DNS packet (length 9).
+dnslogger-forward: debug: No data received.

@@ -1,0 +1,10 @@
+[package]
+name = "dnslogger-utils"
+version = "0.1.0"
+authors = ["Stefan Bühler <buehler@cert.uni-stuttgart.de>"]
+
+[dependencies]
+pcap = "0.5.7"
+byteorder = "0.5"
+arrayref = "0.3.2"
+#libc = "0.2"

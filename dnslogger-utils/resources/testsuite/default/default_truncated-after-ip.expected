@@ -1,0 +1,2 @@
+dnslogger-forward: debug: Truncated IP packet, indicated length is 358, available is 20.
+dnslogger-forward: debug: No data received.

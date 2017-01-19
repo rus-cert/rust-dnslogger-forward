@@ -1,0 +1,2 @@
+dnslogger-forward: debug: IP packet total length smaller than header, indicated total length is 1, header is 20 bytes long.
+dnslogger-forward: debug: No data received.

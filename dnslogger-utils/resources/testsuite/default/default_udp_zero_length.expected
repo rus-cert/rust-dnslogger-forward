@@ -1,0 +1,2 @@
+dnslogger-forward: debug: UDP total length smaller than header, indicated total length is 0, header is 8 bytes long.
+dnslogger-forward: debug: No data received.
